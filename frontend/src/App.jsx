@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import MainLayout from "./layouts/MainLayout";
+import MainLayout from "./Layouts/MainLayout";
 import AuthLayout from "./Layouts/AuthorLayout";
 
 import Home from "./Pages/Home";
-import Login from "./pages/Login";
+import Login from "./Pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./Pages/Dashboard";
 import PrincipalDashboard from "./Pages/PrincipalDashboard";
