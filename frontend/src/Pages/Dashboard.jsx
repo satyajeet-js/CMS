@@ -44,7 +44,7 @@ const Dashboard = () => {
         navigate("/login");
         return;
       }
-      const res = await axios.get("http://localhost:5000/api/complaints/student", {
+      const res = await axios.get("https://cms-backend-0j4t.onrender.com/api/complaints/student", {
         headers: { Authorization: `Bearer ${token}` },
       });
       setComplaints(Array.isArray(res.data) ? res.data : []);
