@@ -41,7 +41,7 @@ const ComplaintModal = ({ onClose, onSuccess }) => {
       setMessage(""); // Clear previous errors
 
       // 3. API Call
-      await axios.post("http://localhost:5000/api/complaints", formData, {
+      await axios.post("https://cms-backend-0j4t.onrender.com/api/complaints", formData, {
         headers: {
           // Ensure there are no extra spaces or quotes around the token
           Authorization: `Bearer ${token.replace(/"/g, '')}`,
