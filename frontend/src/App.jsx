@@ -4,7 +4,7 @@ import AuthLayout from "./Layouts/AuthorLayout";
 
 import Home from "./Pages/Home";
 import Login from "./Pages/Login";
-import Register from "./pages/Register";
+import Register from "./Pages/Register";
 import Dashboard from "./Pages/Dashboard";
 import PrincipalDashboard from "./Pages/PrincipalDashboard";
 import PrincipalLogin from "./Pages/PrincipalLogin";
