@@ -54,7 +54,7 @@ const Register = () => {
 
     try {
       setLoading(true);
-      await axios.post("http://localhost:5000/api/auth/register", payload);
+      await axios.post("https://cms-backend-0j4t.onrender.com/api/auth/register", payload);
       alert("Registration Successful 🎉");
       navigate("/login");
     } catch (err) {
